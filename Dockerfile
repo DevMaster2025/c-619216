@@ -6,9 +6,9 @@ WORKDIR /app
 
 # Copie os arquivos de configuração do projeto
 COPY package.json ./
-
+RUN npm install
 # Instale as dependências
-RUN npm ci
+#RUN npm ci
 
 # Copie o resto dos arquivos do projeto
 COPY . .
