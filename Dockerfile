@@ -5,7 +5,7 @@ FROM node:20-alpine
 WORKDIR /app
 
 # Copie os arquivos de configuração do projeto
-COPY package.json package-lock.json ./
+COPY package.json ./
 
 # Instale as dependências
 RUN npm ci
