@@ -9,7 +9,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-     "start": "vite preview --port 7171",
+     "start": "vite preview --port 7171"
   },
   "dependencies": {
     "@geist-ui/core": "^2.3.8",
