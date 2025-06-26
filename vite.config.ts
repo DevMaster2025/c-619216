@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: true,
     port: 8080,
-    allowedHosts: ['miradprojects-landpage.rpulcy.easypanel.host']
+    allowedHosts: ['*']
   },
   plugins: [
     react(),
