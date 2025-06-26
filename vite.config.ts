@@ -8,7 +8,10 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: true,
     port: 8080,
-    allowedHosts: ['https://multatendiment-landpagecrpto.ybrsom.easypanel.host','https://miradprojects-landpage.rpulcy.easypanel.host/']
+   allowedHosts: [
+  'multatendiment-landpagecrpto.ybrsom.easypanel.host',
+  'miradprojects-landpage.rpulcy.easypanel.host'
+]
   },
   plugins: [
     react(),
